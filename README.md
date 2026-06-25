@@ -28,24 +28,6 @@ http://localhost:3000/api/slots?date=2026-06-25
 http://localhost:3000/admin.html
 ```
 
-## Railway Variables
-
-Add these in Railway service variables:
-
-```env
-ADMIN_TOKEN=yourStrongAdminPassword
-DATA_FILE=/data/prana-data.json
-ALLOWED_ORIGIN=*
-```
-
-Use a Railway Volume mounted at:
-
-```txt
-/data
-```
-
-This keeps bookings and feedbacks after redeploys/restarts.
-
 ## Current appointment slots
 
 Monday to Saturday:
